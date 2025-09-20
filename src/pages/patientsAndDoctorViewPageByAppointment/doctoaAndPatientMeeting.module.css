@@ -1,0 +1,34 @@
+.doctorAndPatientMeetingContainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.sectionSplit {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  /* For responsiveness */
+}
+
+.leftSection,
+.rightSection {
+  flex: 1;
+  min-width: 300px;
+  /* Responsive fallback */
+  background-color: rgba(0, 255, 255, 0.329);
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Optional: Style for the heading */
+.doctorAndPatientMeetingContainer h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}

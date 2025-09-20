@@ -1,0 +1,68 @@
+.appointmentContainer {
+  width: 97%;
+  margin: auto;
+  padding: 40px;
+  background-color: #4feb9569;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+.patientInfo {
+  text-align: left;
+  margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.patientInfo p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.appointmentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 80%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}

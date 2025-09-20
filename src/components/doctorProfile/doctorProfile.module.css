@@ -1,0 +1,53 @@
+.doctorProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #f9f9f969;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(158, 2, 2, 0.849), rgba(0, 0, 0, 0.692));
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #f3c64b;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #f7fcb2;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  font-size: 18px;
+  color: #666;
+}

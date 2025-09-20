@@ -1,0 +1,23 @@
+.adminContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.section {
+  flex: 1;
+  /* Each section takes equal width */
+  min-width: 300px;
+  /* Ensures responsiveness */
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .adminContainer {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,53 @@
+.patientsProfileContainer {
+  width: 97%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f969;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titleBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}
+
+.profileContent {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 3px solid #007bff;
+}
+
+.patientInfo p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.patientInfo strong {
+  color: #333;
+}

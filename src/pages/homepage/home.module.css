@@ -1,0 +1,157 @@
+/* src/pages/Home/Home.module.css */
+
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Hero Section */
+.hero {
+  background: url('/assets/hospital-banner.jpg') no-repeat center center/cover;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #002d72;
+}
+
+.ctaButton {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--button-radius);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.ctaButton:hover {
+  background-color: #001f4d;
+}
+
+.doctorsContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #002d72;
+  margin-bottom: 20px;
+}
+
+.doctorsGrid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.doctorsCard {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.image {
+  width: 250px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.doctorsTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #002d72;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Services Section */
+.services {
+  padding: 3rem 2rem;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.serviceGrid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.serviceCard {
+  background: white;
+  padding: 1rem;
+  border-radius: var(--button-radius);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  /* display: flex; */
+
+}
+
+.serviceCard img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.serviceCard h3 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.serviceCard p {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+/* Contact Section */
+.contact {
+  background-color: var(--background-color);
+  padding: 2rem;
+  text-align: center;
+}
+
+.contactButton {
+  background-color: var(--secondary-color);
+  color: black;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--button-radius);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.contactButton:hover {
+  background-color: #e6b800;
+}

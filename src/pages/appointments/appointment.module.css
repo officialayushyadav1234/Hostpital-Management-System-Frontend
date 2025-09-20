@@ -1,0 +1,127 @@
+/* appointment.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 20px;
+}
+
+.appointmentBox {
+  max-width: 800px;
+  width: 100%;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.appointmentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  border-color: #6a11cb;
+  outline: none;
+  box-shadow: 0 0 5px rgba(106, 17, 203, 0.3);
+}
+
+.textarea {
+  resize: none;
+  height: 120px;
+}
+
+.button {
+  background-color: #28a745;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .appointmentBox {
+    padding: 30px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .input,
+  .textarea,
+  .select {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}

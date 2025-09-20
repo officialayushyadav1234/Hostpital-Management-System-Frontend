@@ -1,0 +1,44 @@
+.footer {
+  background: #0b2545e7;
+  color: white;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.column {
+  max-width: 200px;
+}
+
+h3 {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  color: rgb(0, 0, 0);
+  background: #cad0da6c;
+}

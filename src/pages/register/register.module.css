@@ -1,0 +1,126 @@
+/* Container Styling */
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  border-radius: 8px;
+  color: rgb(121, 83, 156);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(104, 248, 212, 0.192);
+}
+
+/* Left-side Image */
+.doctor img {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+  object-fit: cover;
+}
+
+/* Form Styling */
+.form {
+  flex: 1;
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 0 8px 8px 0;
+  color: rgb(121, 83, 156);
+}
+
+/* Heading */
+.container h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Form Details */
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 15px;
+}
+
+.details div {
+  flex: 1;
+  min-width: 180px;
+  margin-bottom: 10px;
+}
+
+/* Input and Select Styling */
+.details div input,
+.details div select {
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  border: 1px solid rgb(120, 54, 181);
+  border-radius: 4px;
+  color: rgb(121, 83, 156);
+  background-color: #f9f9f9;
+  transition: all 0.3s ease-in-out;
+}
+
+.details div input:focus,
+.details div select:focus {
+  border-color: #7749c1;
+  box-shadow: 0 0 5px rgba(120, 54, 181, 0.4);
+}
+
+/* Button Container */
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Submit Button */
+.btn button {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(121, 83, 156);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn button:hover {
+  background-color: #7749c1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .doctor img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .details {
+    flex-direction: column;
+  }
+
+  .btn button {
+    width: 100%;
+  }
+}
